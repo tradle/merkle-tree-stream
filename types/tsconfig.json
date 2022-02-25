@@ -9,10 +9,10 @@
     "lib": ["es6", "dom"],
     "baseUrl": ".",
     "paths": {
-      "merkle-tree-stream": [".."],
-      "merkle-tree-stream/generator": ["./generator.d.ts"],
-      "merkle-tree-stream/types": ["./types.d.ts"],
-      "merkle-tree-stream/util": ["./util.d.ts"]
+      "merkle-tree-stream": ["../index.d.ts"],
+      "merkle-tree-stream/generator": ["../generator.d.ts"],
+      "merkle-tree-stream/types": ["../types.d.ts"],
+      "merkle-tree-stream/util": ["../util.d.ts"]
     }
   }
 }

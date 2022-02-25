@@ -3,7 +3,7 @@
   "version": "4.1.0",
   "description": "A stream that generates a merkle tree based on the incoming data.",
   "main": "./index.js",
-  "types": "./types/index.d.ts",
+  "types": "./index.d.ts",
   "dependencies": {
     "@types/streamx": "^2.9.1",
     "flat-tree": "^1.8.0",
@@ -18,31 +18,31 @@
   },
   "exports": {
     ".": {
-      "types": "./types/index.d.ts",
+      "types": "./index.d.ts",
       "require": "./index.js"
     },
     "./generator": {
-      "types": "./types/generator.d.ts",
+      "types": "./generator.d.ts",
       "require": "./generator.js"
     },
     "./generator.js": {
-      "types": "./types/generator.d.ts",
+      "types": "./generator.d.ts",
       "require": "./generator.js"
     },
     "./util": {
-      "types": "./types/util.d.ts",
+      "types": "./util.d.ts",
       "require": "./util.js"
     },
     "./util.js": {
-      "types": "./types/util.d.ts",
+      "types": "./util.d.ts",
       "require": "./util.js"
     },
     "./types": {
-      "types": "./types/types.d.ts",
+      "types": "./types.d.ts",
       "require": "./types.js"
     },
     "./types.js": {
-      "types": "./types/types.d.ts",
+      "types": "./types.d.ts",
       "require": "./types.js"
     }
   },

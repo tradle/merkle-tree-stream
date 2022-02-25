@@ -1,5 +1,5 @@
-import { MerkleGeneratorOpts, Node, Parent, LeafHash, ParentHash } from './types';
-import { CLOSE_UP } from './util';
+import { MerkleGeneratorOpts, Node, Parent, LeafHash, ParentHash } from './types.js';
+import { CLOSE_UP } from './util.js';
 
 declare class MerkleGenerator<Hash> {
   static CLOSE_UP: typeof CLOSE_UP;

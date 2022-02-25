@@ -1,4 +1,4 @@
-import { Node, Leaf, Parent } from 'types';
+import { Node, Leaf, Parent } from './types.js';
 
 declare class CloseUp {}
 
