@@ -1,17 +1,20 @@
-# merkle-tree-stream
+# @tradle/merkle-tree-stream
+
+> fork of [merkle-tree-stream](https://github.com/mafintosh/merkle-tree-stream) that comes
+> with types and `CLOSE_UP`.
 
 A stream that generates a merkle tree based on the incoming data.
 
 ```
-npm install merkle-tree-stream
+npm install @tradle/merkle-tree-stream
 ```
 
-[![build status](http://img.shields.io/travis/mafintosh/merkle-tree-stream.svg?style=flat)](http://travis-ci.org/mafintosh/merkle-tree-stream)
+[![Test on Node.js](https://github.com/tradle/merkle-tree-stream/actions/workflows/test-node.yml/badge.svg)](https://github.com/tradle/merkle-tree-stream/actions/workflows/test-node.yml)
 
 ## Usage
 
 ``` js
-var MerkleTreeStream = require('merkle-tree-stream')
+var MerkleTreeStream = require('@tradle/merkle-tree-stream')
 var crypto = require('crypto')
 
 var stream = new MerkleTreeStream({

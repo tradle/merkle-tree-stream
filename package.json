@@ -1,6 +1,6 @@
 {
-  "name": "merkle-tree-stream",
-  "version": "4.0.0",
+  "name": "@tradle/merkle-tree-stream",
+  "version": "4.1.0",
   "description": "A stream that generates a merkle tree based on the incoming data.",
   "main": "./index.js",
   "types": "./types/index.d.ts",
@@ -54,12 +54,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/merkle-tree-stream.git"
+    "url": "https://github.com/tradle/merkle-tree-stream.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/merkle-tree-stream/issues"
+    "url": "https://github.com/tradle/merkle-tree-stream/issues"
   },
-  "homepage": "https://github.com/mafintosh/merkle-tree-stream"
+  "homepage": "https://github.com/tradle/merkle-tree-stream"
 }
