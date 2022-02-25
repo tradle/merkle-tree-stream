@@ -1,6 +1,6 @@
 {
   "name": "@tradle/merkle-tree-stream",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "A stream that generates a merkle tree based on the incoming data.",
   "main": "./index.js",
   "types": "./index.d.ts",
