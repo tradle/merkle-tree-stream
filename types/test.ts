@@ -1,7 +1,7 @@
 import MerkleTreeStream = require('merkle-tree-stream');
 import MerkleTreeStreamGenerator = require('merkle-tree-stream/generator');
 import type { LeafPreHash, Parent, Node } from 'merkle-tree-stream/types';
-import { isParent, isLeaf } from 'merkle-tree-stream/util';
+import { isParent, isLeaf, CLOSE_UP } from 'merkle-tree-stream/util';
 
 const x = new MerkleTreeStream({
   leaf(node: LeafPreHash, roots: Array<Parent<string>>) {
@@ -23,6 +23,7 @@ const x = new MerkleTreeStream({
 x.write('hi');
 x.write(new Uint8Array());
 x.write(Buffer.from('hello'));
+x.write(CLOSE_UP);
 
 const y = new MerkleTreeStreamGenerator({
   leaf: () => Buffer.alloc(0),
