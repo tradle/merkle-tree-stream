@@ -3,7 +3,8 @@
 // versioned by the same semver as the stream interface.
 
 const flat = require('flat-tree')
-const CLOSE_UP = Symbol('CLOSE_UP')
+const util = require('./util')
+const CLOSE_UP = util.CLOSE_UP
 
 class MerkleGenerator {
   constructor (opts, roots) {
